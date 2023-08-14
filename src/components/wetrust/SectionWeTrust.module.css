@@ -1,0 +1,29 @@
+.wetrust {
+  width: 100%;
+  margin-top: 100px;
+}
+.wetrust__title {
+  font-size: 50px;
+  font-weight: 300;
+  margin-left: 80px;
+}
+
+.wetrust__cards {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.wetrust__card__text {
+  position: relative;
+}
+.wetrust__card__text__title {
+  color: #ffffff;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  text-align: justify;
+  font-weight: 400;
+  font-size: large;
+}

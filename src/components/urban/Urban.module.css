@@ -1,0 +1,54 @@
+.urban {
+  width: 100%;
+  height: 800px;
+  margin-top: 50px;
+}
+
+.urban__image {
+  width: 1280px;
+  height: 467px;
+
+  margin-left: 80px;
+}
+.urban__image img {
+  margin-top: 70px;
+  width: 1280px;
+  height: 467px;
+}
+.urban__title {
+  width: 930px;
+  height: 204px;
+  text-align: justify;
+  margin-left: 80px;
+  font-size: 50px;
+  text-shadow: black;
+  font-weight: normal;
+  margin-top: 100px;
+}
+.urban__title__timedate {
+  color: #00000080;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .urban {
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .urban__image,
+  .urban__image img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .urban__title {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+}

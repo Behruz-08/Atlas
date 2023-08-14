@@ -1,0 +1,22 @@
+.dna {
+  width: 100%;
+  margin-top: 200px;
+}
+
+.dna__title {
+  margin-left: 80px;
+  text-align: justify;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.dna__container {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
+  row-gap: 50px;
+  column-gap: 90px;
+}

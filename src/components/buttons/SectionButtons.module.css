@@ -1,0 +1,16 @@
+.buttons__top {
+  display: flex;
+  gap: 20px;
+  background-color: #ffffff;
+  position: relative;
+  width: 1280px;
+  margin-left: 70px;
+}
+.buttons li {
+  margin-top: 20px;
+}
+.buttons__bottom {
+  display: flex;
+  gap: 20px;
+  margin-left: 70px;
+}

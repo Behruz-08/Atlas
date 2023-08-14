@@ -1,0 +1,25 @@
+.footer {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.footer__cards {
+  width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+.footer__search {
+  margin-top: 30px;
+
+  margin-left: 80px;
+}
+.footer__search img {
+  width: 1280px;
+}
+.footer__bottoms {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 40px;
+}
