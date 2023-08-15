@@ -1,4 +1,9 @@
+.article {
+  position: relative;
+}
+
 .article__cards {
+  position: relative;
   margin-left: 80px;
   width: 1120px;
   display: grid;
@@ -28,4 +33,40 @@
 .card8,
 .card9 {
   grid-row: 3;
+}
+
+.cardvideo {
+  position: absolute;
+  top: 43%;
+  margin-left: 8%;
+}
+
+.article__cards button {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: rgba(72, 72, 72, 0.823);
+  color: white;
+  display: flex;
+  margin-top: -60px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+}
+
+.article__cards p {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.article__cards span {
+  font-weight: 200;
+  margin-top: 10px;
 }

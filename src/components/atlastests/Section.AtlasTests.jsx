@@ -1,9 +1,11 @@
 import React from "react";
 import style from "./Section.AtlasTests.module.css";
 
-import frame1 from "../../Accets/atlastests.img/Frame1.png";
-import frame2 from "../../Accets/atlastests.img/Frame2.png";
-import frame3 from "../../Accets/atlastests.img/Frame3.png";
+import frame1 from "../../Accets/atlastests.img/frame1.png";
+import frame2a from "../../Accets/atlastests.img/frame2a.png";
+import frame2b from "../../Accets/atlastests.img/frame2b.png";
+import frame3a from "../../Accets/atlastests.img/frame3a.png";
+import frame3b from "../../Accets/atlastests.img/frame3b.png";
 
 function SectionAtlasTests() {
   return (
@@ -14,9 +16,62 @@ function SectionAtlasTests() {
           <span className={style.atlas__title__text}> with Atlas </span> tests
         </h1>
         <div className={style.atlas__cards}>
-          <img src={frame1} alt="frame1" />
-          <img src={frame2} alt="frame2" />
-          <img src={frame3} alt="frame3" />
+          <div className={style.atlas__cards__card1}>
+            <h2>
+              DNA <br />
+              <span>test</span>
+            </h2>
+            <p>
+              £165 <span>-35%</span>
+            </p>
+            <h3>£99</h3>
+
+            <button>Read more</button>
+            <img src={frame1} alt="frame1" />
+          </div>
+          <div className={style.atlas__cards__card2}>
+            <h2>
+              Microbiome <br /> test
+            </h2>
+            <p>
+              £199 <span>-26%</span>
+            </p>
+            <h3>£139</h3>
+
+            <img
+              className={style.atlas__cards__card2__frame2a}
+              src={frame2a}
+              alt="frame2a"
+            />
+            <img
+              className={style.atlas__cards__card2__frame2b}
+              src={frame2b}
+              alt="frame2b"
+            />
+            <button>Read more</button>
+          </div>
+          <div className={style.atlas__cards__card3}>
+            <h2>
+              Unleash <br />
+              the potential of your <br />
+              <span>DNA</span>
+            </h2>
+            <p>
+              от 8 900 ₽ <span>-35%</span>
+            </p>
+            <h3>5 000 ₽</h3>
+            <img
+              className={style.atlas__cards__card3__frame3a}
+              src={frame3a}
+              alt="frame3a"
+            />
+            <img
+              className={style.atlas__cards__card3__frame3b}
+              src={frame3b}
+              alt="frame3b"
+            />
+            <button>Read more</button>
+          </div>
         </div>
       </section>
     </div>

@@ -8,14 +8,16 @@
 }
 
 .freeatlas__title {
-  margin-left: 80px;
-  padding-top: 50px;
-  font-size: 40px;
-  font-weight: 400;
+  padding: 10px;
+  margin-left: -850px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #7645ef;
 }
 
-.freeatlas__title__free {
-  color: #7645ef;
+.freeatlas__title span {
+  color: #000000;
+  margin-left: 10px;
 }
 
 .freeatlas__button {
@@ -24,7 +26,7 @@
   border-radius: 100px;
   color: #ffffff;
   background-color: #000000;
-  margin-left: 85%;
+  margin-left: 40%;
   position: absolute;
   top: 80px;
 }
@@ -37,9 +39,9 @@
 }
 
 .freeatlas__book {
-  margin-left: 66%;
+  margin-left: 16%;
   position: absolute;
-  top: 90px;
+  top: 100px;
 }
 .freeatlas__cards {
   margin-top: 60px;
@@ -48,4 +50,145 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+}
+
+.freeatlas__card1 {
+  position: relative;
+  width: 250px;
+  height: 415px;
+}
+
+.freeatlas__card1 p {
+  text-align: justify;
+  margin-top: 20px;
+  color: #00000076;
+}
+
+.freeatlas__card1 img {
+  border-radius: 40px;
+}
+
+.freeatlas__card1 span {
+  position: absolute;
+  display: flex;
+  margin-top: -40px;
+  color: #ffffff;
+  left: 60px;
+}
+
+.freeatlas__card1 h2 {
+  position: absolute;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #00000082;
+  left: 80px;
+  font-size: 25px;
+}
+
+.freeatlas__card2 {
+  position: relative;
+  width: 250px;
+  height: 415px;
+}
+
+.freeatlas__card2 img {
+  border-radius: 40px;
+}
+
+.freeatlas__card2 span {
+  position: absolute;
+  display: flex;
+  margin-top: -40px;
+  color: #ffffff;
+  left: 60px;
+}
+
+.freeatlas__card2 h2 {
+  position: absolute;
+  margin-top: 10px;
+  font-weight: 800;
+  color: #00000082;
+  left: 40px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.freeatlas__card2 p {
+  text-align: justify;
+  margin-top: 10px;
+  color: #00000076;
+}
+
+.freeatlas__card3 {
+  position: relative;
+  width: 250px;
+  height: 415px;
+}
+
+.freeatlas__card3 img {
+  border-radius: 40px;
+}
+
+.freeatlas__card3 span {
+  position: absolute;
+  display: flex;
+  margin-top: -40px;
+  color: #ffffff;
+  left: 60px;
+}
+
+.freeatlas__card3 h2 {
+  position: absolute;
+  margin-top: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  left: 40px;
+  font-size: 50px;
+}
+
+.freeatlas__card3 h2 span {
+  /* position: absolute; */
+  top: 100px;
+  font-weight: 700;
+  color: #110101bc;
+  left: -20px;
+  font-size: 45px;
+}
+
+.freeatlas__card3 p {
+  text-align: justify;
+  margin-top: 10px;
+  color: #00000076;
+}
+
+.freeatlas__card4 {
+  position: relative;
+  width: 250px;
+  height: 415px;
+}
+
+.freeatlas__card4 img {
+  border-radius: 40px;
+}
+
+.freeatlas__card4 span {
+  position: absolute;
+  display: flex;
+  margin-top: -40px;
+  color: #ffffff;
+  left: 60px;
+}
+
+.freeatlas__card4 h2 {
+  position: absolute;
+  margin-top: 5px;
+  font-weight: 800;
+  color: #ffffff;
+  left: 40px;
+  font-size: 25px;
+}
+.freeatlas__card4 p {
+  text-align: justify;
+  margin-top: 10px;
+  color: #00000076;
 }

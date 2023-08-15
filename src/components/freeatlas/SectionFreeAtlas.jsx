@@ -12,8 +12,8 @@ function SectionFreeAtlas() {
     <div>
       <section className={style.freeatlas}>
         <h1 className={style.freeatlas__title}>
-          <span className={style.freeatlas__title__free}>Free</span> Atlas
-          courses
+          Free
+          <span>Atlas courses</span>
         </h1>
 
         <p className={style.freeatlas__title__info}>
@@ -31,11 +31,58 @@ function SectionFreeAtlas() {
         />
         {/* </div> */}
         <div className={style.freeatlas__cards}>
-          <img src={card1} alt="card1" />
-          <img src={card2} alt="card2" />
-          <img src={card3} alt="card3" />
-          <img src={card4} alt="card4" />
+          <div className={style.freeatlas__card1}>
+            <h2>
+              Mindful <br /> Course
+            </h2>
+            <img src={card1} alt="card1" />
+            <span>8 lessons • 8 mails</span>
+            <p>
+              Discover how stress impacts your gut health, including its impact
+              on microbiome diversity and digestion.
+            </p>
+          </div>
+          <div className={style.freeatlas__card2}>
+            <h2>
+              Healthy <br /> Eating 101
+            </h2>
+            <img src={card2} alt="card2" />
+            <span>10 lessons • 10 mails</span>
+            <p>We are what we eat. Find out how to eat happily and healthily</p>
+          </div>
+          <div className={style.freeatlas__card3}>
+            <h2>
+              EATTHE <br />
+              <span>RAINBOW</span>
+            </h2>
+            <img src={card3} alt="card3" />
+            <span>10 lessons • 10 mails</span>
+            <p>
+              Put more colour in your diet to achieve a diverse microbial
+              community in your gut.
+            </p>
+          </div>
+          <div className={style.freeatlas__card4}>
+            <h2>
+              Thesecret
+              <br />
+              lifeofgut bacteria
+            </h2>
+            <img src={card4} alt="card4" />
+            <span>PDF ebook</span>
+            <p>
+              Learn how to make your gut bacteria happier and how to take care
+              of your microbiota.
+            </p>
+          </div>
         </div>
+        {/* <div className={style.freeatlas__title__content}>
+          <br />
+
+          <br />
+
+          <br />
+        </div> */}
       </section>
     </div>
   );

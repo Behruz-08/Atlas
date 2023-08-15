@@ -14,7 +14,79 @@
   justify-content: space-between;
   margin-left: 80px;
   margin-top: 20px;
+  position: relative;
 }
+
+.wetrust__card1 {
+  width: 346px;
+  height: 334px;
+  position: relative;
+}
+
+.wetrust__card1 button {
+  position: absolute;
+  margin-top: 170px;
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  left: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.591);
+  color: #ffffff;
+}
+
+.wetrust__card1 p {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.wetrust__card1 p span {
+  color: rgba(0, 0, 0, 0.373);
+  font-weight: 600;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.wetrust__card2 {
+  width: 346px;
+  height: 334px;
+  position: relative;
+}
+
+.wetrust__card2 button {
+  position: absolute;
+  margin-top: 170px;
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  left: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.591);
+  color: #ffffff;
+}
+
+.wetrust__card2 p {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.wetrust__card2 p span {
+  color: rgba(0, 0, 0, 0.373);
+  font-weight: 600;
+  margin-top: 10px;
+  position: absolute;
+}
+
 .wetrust__card__text {
   position: relative;
 }
@@ -26,4 +98,6 @@
   text-align: justify;
   font-weight: 400;
   font-size: large;
+  width: 346px;
+  height: 334px;
 }

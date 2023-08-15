@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import React from "react";
 import HeaderSearch from "./components/headersearch/HeaderSearch";
 import Header from "./components/header/Header";
