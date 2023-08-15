@@ -76,13 +76,6 @@ function SectionFreeAtlas() {
             </p>
           </div>
         </div>
-        {/* <div className={style.freeatlas__title__content}>
-          <br />
-
-          <br />
-
-          <br />
-        </div> */}
       </section>
     </div>
   );
