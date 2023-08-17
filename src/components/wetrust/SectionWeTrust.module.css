@@ -1,6 +1,7 @@
 .wetrust {
-  width: 100%;
+  width: 1280px;
   margin-top: 100px;
+  overflow: hidden;
 }
 .wetrust__title {
   font-size: 50px;
@@ -9,12 +10,13 @@
 }
 
 .wetrust__cards {
-  width: 1280px;
+  /* width: 1280px; */
   display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
+  justify-content: space-around;
+  /* margin-left: 80px; */
   margin-top: 20px;
   position: relative;
+  padding: 30px;
 }
 
 .wetrust__card1 {
@@ -89,6 +91,7 @@
 
 .wetrust__card__text {
   position: relative;
+  margin-left: -20px;
 }
 .wetrust__card__text__title {
   color: #ffffff;
@@ -100,4 +103,12 @@
   font-size: large;
   width: 346px;
   height: 334px;
+}
+
+.wetrust__card__text hr {
+  color: #ffffff2e;
+  border: 1px solid;
+  margin-left: -10px;
+  width: 80%;
+  margin-top: 10px;
 }

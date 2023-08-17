@@ -31,9 +31,11 @@ function SectionWeTrust() {
             <img src={card3} alt="card3" />
             <p className={style.wetrust__card__text__title}>
               What is a Mediterranean diet <br /> and should you try it?
+              <hr />
               <p style={{ marginTop: "30px" }}>
                 Kombucha recipe for dummies: <br /> make it, don't buy it!
               </p>
+              <hr />
               <p style={{ marginTop: "30px" }}>
                 Nailed it: Listen to your gut <br /> event
               </p>

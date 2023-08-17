@@ -1,6 +1,7 @@
 .dna {
-  width: 100%;
+  width: 1280px;
   margin-top: 200px;
+  overflow: hidden;
 }
 
 .dna__title {
@@ -13,13 +14,14 @@
 .dna__container {
   position: relative;
   margin-top: 50px;
-  margin-left: 80px;
-  width: 1280px;
+  /* margin-left: 80px; */
+  /* width: 1280px; */
   display: grid;
+  padding: 0 40px;
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: repeat(3, 1fr); */
-  row-gap: 50px;
-  column-gap: 90px;
+  row-gap: 40px;
+  column-gap: 10px;
 }
 
 .cardvideo {
@@ -37,7 +39,7 @@
   color: white;
   display: flex;
   margin-top: -60px;
-  margin-left: 10px;
+  margin-left: 40px;
   justify-content: center;
   align-items: center;
   border: none;
@@ -51,6 +53,7 @@
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .dna__container span {

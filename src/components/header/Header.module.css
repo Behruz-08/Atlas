@@ -2,6 +2,7 @@
   background-color: #fbe982;
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
 .header__info {
   height: 50px;
@@ -11,6 +12,16 @@
   align-items: center;
   gap: 30px;
 }
+
+.header__info span {
+  font-weight: 300;
+}
+
+.header__info h1 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
 .header__closeright {
   position: absolute;
   left: 98%;
@@ -27,6 +38,7 @@
   height: 40px;
   border-radius: 100px;
 }
+
 .nawbar {
   width: 100%;
   height: 400px;
@@ -41,6 +53,11 @@
   padding-top: 20px;
   color: #ffffff;
 }
+
+.nawbar__links a {
+  color: #ffffff;
+}
+
 .nawbar__title {
   margin-top: 100px;
   font-weight: 662px;

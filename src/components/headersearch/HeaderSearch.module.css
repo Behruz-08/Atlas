@@ -9,6 +9,7 @@
 .header__search {
   background-color: rgba(118, 69, 239, 1);
   /* position: relative; */
+  overflow: hidden;
 }
 .header__naw {
   width: 1280px;

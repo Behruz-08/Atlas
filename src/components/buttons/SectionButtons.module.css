@@ -1,16 +1,129 @@
-.buttons__top {
-  display: flex;
-  gap: 20px;
-  background-color: #ffffff;
+.buttons {
   position: relative;
   width: 1280px;
-  margin-left: 70px;
+  overflow: hidden;
 }
-.buttons li {
+
+.buttons__top {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #ffffff;
+  position: absolute;
+  /* width: 1280px; */
+  margin-left: 80px;
+}
+
+.buttons__top li {
   margin-top: 20px;
+  display: inline-block;
 }
+
+.buttons__bottom ul {
+  display: inline-block;
+  /* margin-left: 70px; */
+}
+
+.buttons__top button {
+  width: 132px;
+  height: 43px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+}
+
 .buttons__bottom {
   display: flex;
-  gap: 20px;
-  margin-left: 70px;
+
+  background-color: #ffffff;
+
+  width: 1280px;
+  margin-left: 80px;
+}
+
+.buttons__bottom li {
+  margin-top: 80px;
+  display: inline-block;
+}
+
+.buttons__bottom ul {
+  display: inline-block;
+  /* margin-left: 70px; */
+}
+
+.buttons__bottom button {
+  width: 132px;
+  height: 43px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 1);
+}
+
+.buttons__social {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0px 0px 20px;
+  left: 96%;
+  margin-top: -540px;
+}
+
+.buttons__social__facebook {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.buttons__social__instagram {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.buttons__social__email {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+
+.buttons__social__facebook img {
+  width: 10px;
+  height: 20px;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttons__social__instagram img {
+  width: 30px;
+  height: 30px;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttons__social__email img {
+  width: 20px;
+  height: 16px;
+  border-color: rgba(255, 255, 255, 0.1);
 }

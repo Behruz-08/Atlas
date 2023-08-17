@@ -40,13 +40,49 @@ function SectionArticle() {
             <button>Питание</button>
 
             <p>
-              {" "}
               Питание Наследственные заболевания <br />
               <span>5 марта • 15 мин</span>
             </p>
           </div>
           <div className={style.card10}>
-            {/* <img src={card10} alt="card10" /> */}
+            <h1>Top articles</h1>
+            <hr />
+            <ul>
+              <li>
+                01
+                <span>
+                  What is a <br /> Mediterranean diet and should you try it?
+                </span>
+                <hr />
+              </li>
+              <li>
+                02
+                <span>
+                  Kombucha recipe for <br /> dummies: make it, don't buy it!
+                </span>
+                <hr />
+              </li>
+              <li>
+                03
+                <span>
+                  Nailed it: Listen to your <br /> gut event
+                </span>
+                <hr />
+              </li>
+              <li>
+                04
+                <span>
+                  What’s the difference <br /> between IBS and IBD?
+                </span>
+                <hr />
+              </li>
+              <li>
+                05
+                <span>
+                  New guide to your <br /> microbiome test results
+                </span>
+              </li>
+            </ul>
           </div>
 
           <div className={style.card4}>
