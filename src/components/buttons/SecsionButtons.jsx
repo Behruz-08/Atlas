@@ -7,7 +7,7 @@ import instagram from "../../Accets/secsionsbutton.img/instagram.png";
 
 function SecsionButtons() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <section className={style.buttons}>
         <div className={style.buttons__top}>
           <ul>
@@ -62,11 +62,7 @@ function SecsionButtons() {
                 <span> 166</span>
               </button>
             </li>
-          </ul>
-        </div>
 
-        <div className={style.buttons__bottom}>
-          <ul>
             <li>
               <button>
                 <div className={style.buttons__bottom__img}>🔬 </div>
@@ -90,6 +86,7 @@ function SecsionButtons() {
             </li>
           </ul>
         </div>
+
         <div className={style.buttons__social}>
           <div className={style.buttons__social__facebook}>
             <img src={Facebook} alt="Facebook" />

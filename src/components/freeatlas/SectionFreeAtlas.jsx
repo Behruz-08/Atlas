@@ -9,7 +9,7 @@ import book from "../../Accets/freeatlas/book.png";
 
 function SectionFreeAtlas() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <section className={style.freeatlas}>
         <div className={style.freeatlas__wraper}>
           <h1 className={style.freeatlas__title}>

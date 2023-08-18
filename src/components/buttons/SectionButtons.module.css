@@ -1,17 +1,14 @@
 .buttons {
   position: relative;
-  width: 1280px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .buttons__top {
   display: flex;
-  justify-content: space-between;
-
-  background-color: #ffffff;
-  position: absolute;
-  /* width: 1280px; */
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
   margin-left: 80px;
+  background-color: #ffffff;
 }
 
 .buttons__top li {
@@ -19,44 +16,7 @@
   display: inline-block;
 }
 
-.buttons__bottom ul {
-  display: inline-block;
-  /* margin-left: 70px; */
-}
-
 .buttons__top button {
-  width: 132px;
-  height: 43px;
-  border-radius: 20px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background: rgba(255, 255, 255, 1);
-}
-
-.buttons__bottom {
-  display: flex;
-
-  background-color: #ffffff;
-
-  width: 1280px;
-  margin-left: 80px;
-}
-
-.buttons__bottom li {
-  margin-top: 80px;
-  display: inline-block;
-}
-
-.buttons__bottom ul {
-  display: inline-block;
-  /* margin-left: 70px; */
-}
-
-.buttons__bottom button {
   width: 132px;
   height: 43px;
   border-radius: 20px;
@@ -76,8 +36,11 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px 0px 0px 20px;
-  left: 96%;
-  margin-top: -540px;
+  right: 0;
+  top: 200px;
+  /* margin-top: -540px; */
+  border: 1px solid red;
+  z-index: 1;
 }
 
 .buttons__social__facebook {

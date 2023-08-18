@@ -11,31 +11,33 @@ import Pathclose2 from "../../Accets/headerSearch.images/Pathclose2 .png";
 
 function HeaderSearch() {
   return (
-    <div className={style.header__search}>
-      <ul className={style.header__naw}>
-        <li className={style.header__naw__logo}>
-          <img src={Logo} alt="logo" />
-        </li>
-        <li className={style.header__naw__vector}>
-          <img src={Vector} alt="vector" />
-        </li>
-        <li className={style.header__naw__searchtext}>
-          <img src={search} alt="searchtext" />
-        </li>
-        <li className={style.header__naw__ellipse}>
-          <img src={Ellipse} alt="Ellipse" />
-        </li>
+    <div style={{ width: "100%" }}>
+      <div className={style.header__search}>
+        <ul className={style.header__naw}>
+          <li className={style.header__naw__logo}>
+            <img src={Logo} alt="logo" />
+          </li>
+          <li className={style.header__naw__vector}>
+            <img src={Vector} alt="vector" />
+          </li>
+          <li className={style.header__naw__searchtext}>
+            <img src={search} alt="searchtext" />
+          </li>
+          <li className={style.header__naw__ellipse}>
+            <img src={Ellipse} alt="Ellipse" />
+          </li>
 
-        <li className={style.header__naw__pathelips}>
-          <img src={PathElips} alt="ParthElips" />
-        </li>
-        <li className={style.header__naw__closeleft}>
-          <img src={Pathclose1} alt="Pathclose1" />
-        </li>
-        <li className={style.header__naw__closeright}>
-          <img src={Pathclose2} alt="Pathclose2" />
-        </li>
-      </ul>
+          <li className={style.header__naw__pathelips}>
+            <img src={PathElips} alt="ParthElips" />
+          </li>
+          <li className={style.header__naw__closeleft}>
+            <img src={Pathclose1} alt="Pathclose1" />
+          </li>
+          <li className={style.header__naw__closeright}>
+            <img src={Pathclose2} alt="Pathclose2" />
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

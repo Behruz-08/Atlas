@@ -37,7 +37,7 @@ function SectionDna() {
             <img src={card3} alt="card3" />
             <button>Генетика</button>
             <p>
-              Генетика Топ-4 продуктов-афродизиаков 5 марта • 15 мин <br />
+              Генетика Топ-4 продуктов-афродизиаков <br />
               <span>5 марта • 15 мин</span>
             </p>
           </div>
@@ -45,7 +45,8 @@ function SectionDna() {
             <img src={card4} alt="card4" />
             <button>Питание</button>
             <p>
-              Питание Наследственные заболевания 5 марта • 15 мин <br />
+              Наследственные <br /> заболевания
+              <br />
               <span>5 марта • 15 мин</span>
             </p>
           </div>
@@ -53,7 +54,7 @@ function SectionDna() {
             <img src={card5} alt="card5" />
             <button>Питание</button>
             <p>
-              Питание Фенилкетонурия или кому нельзя есть много <br />
+              Питание Фенилкетонурия или <br /> кому нельзя есть много
               <br />
               <span>9 апреля • 8 мин</span>
             </p>
@@ -62,7 +63,8 @@ function SectionDna() {
             <img src={card6} alt="card6" />
             <button>Питание</button>
             <p>
-              Питание Наследственные заболевания <br />
+              Наследственные <br />
+              заболевания <br />
               <span>5 марта • 15 мин</span>
             </p>
           </div>
@@ -79,7 +81,7 @@ function SectionDna() {
             <img src={card8} alt="card8" />
             <button>Видео</button>
             <p>
-              Видео Почему ДНК-тест сдают один раз в жизни
+              Видео Почему ДНК-тест сдают <br /> один раз в жизни
               <span>5 марта • 15 мин</span>
             </p>
           </div>

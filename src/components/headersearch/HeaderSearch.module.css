@@ -32,25 +32,25 @@
   margin-left: 80px;
 }
 .header__naw__searchtext {
-  position: absolute;
+  /* position: absolute; */
   left: 44%;
   margin-top: 15px;
 }
 .header__naw__ellipse {
-  position: absolute;
+  /* position: absolute; */
   left: 42%;
   margin-top: 15px;
 }
 
 .header__naw__pathelips {
-  position: absolute;
+  /* position: absolute; */
   left: 42.5%;
   margin-top: 20px;
   width: 18px;
   height: 18px;
 }
 .header__naw__closeleft {
-  position: absolute;
+  /* position: absolute; */
   left: 93%;
   margin-top: 10px;
   width: 18px;
@@ -58,7 +58,7 @@
 }
 
 .header__naw__closeright {
-  position: absolute;
+  /* position: absolute; */
   left: 93%;
   margin-top: 10px;
 }

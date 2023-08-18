@@ -1,7 +1,6 @@
 .dna {
-  width: 1280px;
+  width: 100%;
   margin-top: 200px;
-  overflow: hidden;
 }
 
 .dna__title {
@@ -14,8 +13,8 @@
 .dna__container {
   position: relative;
   margin-top: 50px;
-  /* margin-left: 80px; */
-  /* width: 1280px; */
+  margin-left: 80px;
+  width: 100%;
   display: grid;
   padding: 0 40px;
   grid-template-columns: repeat(4, 1fr);
@@ -49,14 +48,42 @@
 .dna__container p {
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  /* text-align: justify; */
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
-  margin-left: 20px;
 }
 
 .dna__container span {
   font-weight: 200;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .dna__title {
+    font-size: 40px;
+  }
+
+  .dna__container {
+    margin-left: 20px;
+    padding: 0 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .cardvideo {
+    top: 75%;
+    margin-left: 4%;
+  }
+
+  .dna__container button {
+    width: 80px;
+    height: 30px;
+    margin-top: -40px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .dna__container p {
+    font-size: 12px;
+  }
 }

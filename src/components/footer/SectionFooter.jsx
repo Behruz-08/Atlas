@@ -9,7 +9,7 @@ import social from "../../Accets/footer.img/social.svg";
 
 function SectionFooter() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <section className={style.footer}>
         <div className={style.footer__cards}>
           <div className={style.footer__cards__card1}>

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Section.AtlasTests.module.css";
 
-import frame1 from "../../Accets/atlastests.img/frame1.png";
+// import frame1 from "../../Accets/atlastests.img/frame1.png";
 import frame2a from "../../Accets/atlastests.img/frame2a.png";
 import frame2b from "../../Accets/atlastests.img/frame2b.png";
 import frame3a from "../../Accets/atlastests.img/frame3a.png";
@@ -27,7 +27,7 @@ function SectionAtlasTests() {
             <h3>£99</h3>
 
             <button>Read more</button>
-            <img src={frame1} alt="frame1" />
+            {/* <img src={frame1} alt="frame1" /> */}
           </div>
           <div className={style.atlas__cards__card2}>
             <h2>
@@ -37,7 +37,7 @@ function SectionAtlasTests() {
               £199 <span>-26%</span>
             </p>
             <h3>£139</h3>
-
+            {/* <div className={style.atlas__cards__card2_img}> */}
             <img
               className={style.atlas__cards__card2__frame2a}
               src={frame2a}
@@ -48,6 +48,7 @@ function SectionAtlasTests() {
               src={frame2b}
               alt="frame2b"
             />
+            {/* </div> */}
             <button>Read more</button>
           </div>
           <div className={style.atlas__cards__card3}>

@@ -3,13 +3,13 @@
   height: 841px;
   margin-top: 100px;
   position: relative;
-  overflow: hidden;
 }
 
 .footer__cards {
   display: flex;
-  justify-content: space-around;
-  /* margin-left: 80px; */
+  justify-content: space-between;
+  margin-left: 80px;
+  position: relative;
 }
 
 .footer__cards__card1 {
@@ -153,7 +153,7 @@
   margin-top: 150px;
   height: 100px;
   border-radius: 20px;
-  margin-left: 40px;
+  margin-left: 80px;
   background-color: #4e4f4f53;
 }
 .footer__search p {
@@ -194,4 +194,122 @@
   bottom: 10px;
   color: #2c2f3286;
   margin-left: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 20px;
+  }
+
+  .footer__cards {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .footer__cards__card1 {
+    width: 320px;
+    height: 360px;
+    margin-top: 1100px;
+  }
+
+  .footer__cards__card1 button {
+    width: 280px;
+    margin-left: -300px;
+    bottom: 20px;
+  }
+
+  .footer__cards__card1 img {
+    margin-left: 63%;
+    width: 118px;
+    height: 118px;
+  }
+  .footer__cards__card1 h1 {
+    margin-top: 20px;
+  }
+
+  .footer__cards__card1 input {
+    width: 280px;
+    margin-left: -300px;
+    bottom: 100px;
+  }
+
+  .footer__cards__card2,
+  .footer__cards__card3 {
+    width: 320px;
+    height: 160px;
+    margin-top: 10px;
+  }
+
+  .footer__cards__card3 button {
+    margin-top: -80px;
+    width: 140px;
+  }
+
+  .footer__cards__card3 img {
+    margin-left: 50%;
+  }
+  .footer__cards__card3 h1 {
+    margin-top: 20px;
+  }
+
+  .footer__cards__card2 button {
+    margin-top: -80px;
+    width: 140px;
+  }
+
+  .footer__cards__card2 img {
+    margin-left: 50%;
+  }
+  .footer__cards__card2 h1 {
+    margin-top: 20px;
+  }
+
+  .footer__search {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: #4e4f4f53;
+  }
+  .footer__search p {
+    position: absolute;
+    color: #080808;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .footer__search p a {
+    color: #7645ef;
+    width: 320px;
+  }
+
+  .footer__search img {
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .footer__search hr {
+    border: none;
+    margin-top: -5px;
+    border-top: 3px solid rgba(54, 52, 52, 0.159);
+  }
+
+  .footer__bottoms {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0 auto; */
+    text-align: justify;
+    margin-top: 80px;
+  }
+
+  .footer__bottoms__bottom {
+    display: flex;
+    text-align: justify;
+    color: #2c2f3286;
+  }
 }

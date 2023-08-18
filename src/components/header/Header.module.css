@@ -2,7 +2,6 @@
   background-color: #fbe982;
   position: relative;
   width: 100%;
-  overflow: hidden;
 }
 .header__info {
   height: 50px;
@@ -23,11 +22,11 @@
 }
 
 .header__closeright {
-  position: absolute;
+  /* position: absolute; */
   left: 98%;
 }
 .header__closeleft {
-  position: absolute;
+  /* position: absolute; */
   left: 98%;
 }
 .header__button {
@@ -49,6 +48,8 @@
 .nawbar__links {
   display: flex;
   gap: 20px;
+  align-items: center;
+
   margin-left: 80px;
   padding-top: 20px;
   color: #ffffff;
@@ -86,11 +87,19 @@
   padding-bottom: 40px;
 }
 .nawbar__image {
-  position: absolute;
+  /* position: absolute; */
   width: 235px;
   height: 219px;
-  left: 70%;
-  top: 200px;
+  margin-left: 70%;
+  margin-top: -120px;
+}
+
+.nawbar__social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  margin-top: -40px;
 }
 
 /* @media screen and (max-width: 768px) {
@@ -121,6 +130,70 @@
   color: #000000;
   background-image: url("../../Accets/header.img/Rectangle\ 29406.png");
   background-repeat: no-repeat;
+}*/
+
+@media (max-width: 768px) {
+  .header__info {
+    margin-top: 50px;
+    gap: 15px;
+  }
+
+  .header__info h1 {
+    font-size: 20px;
+  }
+
+  .nawbar {
+    height: 300px;
+  }
+
+  .nawbar__title {
+    font-size: 40px;
+    padding-right: 30%;
+  }
+
+  .nawbar__image {
+    margin-left: 70%;
+    margin-top: -170px;
+    width: 150px;
+    height: 139px;
+  }
 }
 
- */
+@media (max-width: 480px) {
+  .header__info {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
+
+  .header__info h1 {
+    font-size: 18px;
+  }
+
+  .nawbar {
+    height: 200px;
+  }
+
+  .nawbar__links {
+    display: none;
+  }
+
+  .nawbar__title {
+    font-size: 30px;
+    padding-right: 0;
+    margin-left: 0;
+    margin-top: -10%;
+    text-align: center;
+  }
+
+  .nawbar__image {
+    width: 100px;
+    height: 100px;
+    margin-left: 80%;
+    margin-top: -40px;
+  }
+
+  .nawbar__social {
+    display: none;
+  }
+}

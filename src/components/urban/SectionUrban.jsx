@@ -5,7 +5,7 @@ import style from "./Urban.module.css";
 import Group9 from "../../Accets/urban.img/Group 9.png";
 function SectionUrban() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <section className={style.urban}>
         <div className={style.urban__image}>
           <img src={Group9} alt="Group9" />

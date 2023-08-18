@@ -3,25 +3,23 @@
   background-color: antiquewhite;
   margin-top: 40px;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .freeatlas {
   position: relative;
   width: 100%;
-  width: 1280px;
+  /* width: 1280px; */
   height: 720px;
 
   margin-top: 40px;
 }
 
 .freeatlas__title {
-  padding: 10px;
-  margin-left: -370px;
   font-size: 50px;
   font-weight: 600;
   color: #7645ef;
-  max-width: 1280px;
+  margin-left: 120px;
 }
 
 .freeatlas__title span {
@@ -35,29 +33,29 @@
   border-radius: 100px;
   color: #ffffff;
   background-color: #000000;
-  margin-left: 36%;
+  margin-left: 86%;
   position: absolute;
-  top: 90px;
+  margin-top: -35px;
 }
 
 .freeatlas__title__info {
   display: flex;
   text-align: justify;
-  margin-left: 60px;
+  margin-left: 120px;
   margin-top: 10px;
 }
 
 .freeatlas__book {
-  margin-left: 16%;
+  margin-left: 66%;
   position: absolute;
-  top: 100px;
+  top: 80px;
 }
 .freeatlas__cards {
   margin-top: 60px;
   /* width: 1200px; */
-  /* margin-left: 80px; */
+  margin-left: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   position: relative;
   padding: 20px;
 }
@@ -157,7 +155,7 @@
 }
 
 .freeatlas__card3 h2 span {
-  /* position: absolute; */
+  position: absolute;
   top: 100px;
   font-weight: 700;
   color: #110101bc;
@@ -220,4 +218,72 @@
   font-style: normal;
   font-weight: 500;
   line-height: 30px;
+}
+
+@media (max-width: 480px) {
+  .freeatlas__wraper {
+    margin-top: 20px;
+  }
+
+  .freeatlas__title {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .freeatlas__title span {
+    margin-left: 10px;
+  }
+
+  .freeatlas__button {
+    width: 80px;
+    height: 30px;
+    margin-left: 70%;
+    margin-top: -25px;
+  }
+
+  .freeatlas__title__info {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  .freeatlas__book {
+    margin-left: 45%;
+    top: -150px;
+    width: 160px;
+    height: 138px;
+  }
+
+  .freeatlas__cards {
+    width: 100%;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+
+  .freeatlas__card1,
+  .freeatlas__card2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .freeatlas__card1 p,
+  .freeatlas__card2 p {
+    margin-top: 10px;
+  }
+
+  .freeatlas__card1 span,
+  .freeatlas__card2 span {
+    margin-top: -30px;
+  }
+
+  .freeatlas__card1 h2,
+  .freeatlas__card2 h2 {
+    font-size: 20px;
+    left: 50px;
+  }
+
+  .freeatlas__card2 h2 {
+    font-size: 25px;
+    left: 40px;
+  }
 }

@@ -15,7 +15,7 @@ import cardvideo from "../../Accets/article/cardvideo.png";
 
 function SectionArticle() {
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <section className={style.article}>
         <article className={style.article__cards}>
           <div className={style.card1}>

@@ -3,14 +3,16 @@ import style from "./Header.module.css";
 import { useState, useEffect } from "react";
 
 import Sun from "../../Accets/header.img/Sun.png";
-
 import Vectorclose1 from "../../Accets/header.img/Vectorclose1.png";
 import Vectorclose2 from "../../Accets/header.img/Vectorclose2.png";
 import Logo from "../../Accets/header.img/Logo.png";
 import Group from "../../Accets/header.img/Group.png";
+import social1 from "../../Accets/header.img/social1.png";
+import social2 from "../../Accets/header.img/social2.png";
+import social13 from "../../Accets/header.img/social3.png";
 
 function Header() {
-  const initialCloseValue = JSON.parse(localStorage.getItem("close")) || true;
+  const initialCloseValue = JSON.parse(localStorage.getItem("close")) || false;
   const [close, setClose] = useState(initialCloseValue);
 
   // Установить значение close в localStorage при изменении close
@@ -23,38 +25,8 @@ function Header() {
     setClose(!close);
   };
 
-  // Сохранение значения close в localStorage при закрытии страницы или обновлении
-  useEffect(() => {
-    const handleBeforeUnload = () => {
-      localStorage.setItem("close", JSON.stringify(close));
-    };
-
-    const handleUnload = () => {
-      localStorage.setItem("close", JSON.stringify(close));
-    };
-
-    window.addEventListener("beforeunload", handleBeforeUnload);
-    window.addEventListener("unload", handleUnload);
-
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-      window.removeEventListener("unload", handleUnload);
-    };
-  }, [close]);
-
-  // Обработчик обновления страницы
-  const handleBeforeReload = () => {
-    localStorage.setItem("close", JSON.stringify(close));
-  };
-
-  // Добавляем обработчик для события обновления страницы
-  window.onbeforeunload = handleBeforeReload;
-
-  // Возвращаемся обратно после обработки события
-  window.onbeforeunload = null;
-
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <header className={style.header}>
         {close ? (
           <ul className={style.header__info}>
@@ -106,7 +78,11 @@ function Header() {
             <li>Upload</li>
           </a>
         </ul>
-
+        <div className={style.nawbar__social}>
+          <img src={social1} alt="social1" />
+          <img src={social2} alt="social2" />
+          <img src={social13} alt="social3" />
+        </div>
         <h1 className={style.nawbar__title}>
           More <span className={style.nawbar__texttop}>answers</span> to your
           <span className={style.nawbar__textbottom}>
