@@ -1,0 +1,141 @@
+.wetrust {
+  width: 100%;
+  margin-top: 100px;
+}
+.wetrust__title {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.wetrust__cards {
+  /* width: 1280px; */
+  display: flex;
+  justify-content: space-between;
+
+  /* gap: 32px; */
+  margin-top: 20px;
+  position: relative;
+  /* padding: 30px; */
+}
+
+.wetrust__card1 {
+  width: 346px;
+  height: 334px;
+  position: relative;
+}
+
+.wetrust__card1 button {
+  position: absolute;
+  margin-top: 170px;
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  left: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.591);
+  color: #ffffff;
+}
+
+.wetrust__card1 p {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.wetrust__card1 p span {
+  color: rgba(0, 0, 0, 0.373);
+  font-weight: 600;
+  margin-top: 10px;
+  /* position: absolute; */
+}
+
+.wetrust__card2 {
+  width: 346px;
+  height: 334px;
+  position: relative;
+}
+
+.wetrust__card2 button {
+  position: absolute;
+  margin-top: 170px;
+  width: 100px;
+  height: 40px;
+  border-radius: 100px;
+  left: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.591);
+  color: #ffffff;
+}
+
+.wetrust__card2 p {
+  text-align: justify;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+.wetrust__card2 p span {
+  color: rgba(0, 0, 0, 0.373);
+  font-weight: 600;
+  margin-top: 10px;
+  /* position: absolute; */
+}
+
+.wetrust__card__text {
+  position: relative;
+  /* margin-left: -20px; */
+}
+.wetrust__card__text__title {
+  color: #ffffff;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  text-align: justify;
+  font-weight: 400;
+  font-size: large;
+  width: 346px;
+  height: 334px;
+}
+
+.wetrust__card__text hr {
+  color: #ffffff2e;
+  border: 1px solid;
+  margin-left: -10px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .wetrust__title {
+    font-size: 40px;
+    margin-left: 40px;
+  }
+
+  .wetrust__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .wetrust__card__text,
+  .wetrust__card1,
+  .wetrust__card2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .wetrust__card1 button,
+  .wetrust__card2 button {
+    margin-top: 10px;
+    width: 80px;
+    height: 30px;
+  }
+}
